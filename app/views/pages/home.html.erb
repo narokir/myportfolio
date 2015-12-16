@@ -1,0 +1,412 @@
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <%= image_tag "header/flux.png", class: "img-responsive" %>
+                <div class="intro-text">
+                    <span class="name">Content is water</span>
+                    <span class="skills">Fluxus facilitates the flow of content by carving beautiful, engaging user experiences for the web. </span>
+                    <!-- <p>Creating beautiful, engaging websites and user experiences</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- services Section -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Services</h2>
+                <!-- <hr class="star-primary"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 services-item">
+                <div class="service-icon">
+                    <i class="fa fa-cubes fa-5x"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p class="service-intro">Fluxus believes in controlling the web development process from start to finish. We can deliver anything from single page info-sites to multi-functional web applications.</p>
+            </div>
+
+            <div class="col-sm-4 services-item">
+                <div class="service-icon">
+                    <i class="fa fa-paint-brush fa-5x"></i>
+                </div>
+                <h3>Design</h3>
+                <p class="service-intro">With the help of modern design tools, fluxus creates strong, recognisable brands that tell your story, reflect your values and deliver your message clearly.</p>
+            </div>
+
+            <div class="col-sm-4 services-item">
+                <div class="service-icon">
+                    <i class="fa fa-file-code-o fa-5x"></i>
+                </div>
+                <h3>Maintenance</h3>
+                <p>When it comes to technology, change is inevitable and the proper response is to evolve and adapt. When you need improvements, modifications a redesign or consultation, fluxus will take care of you ;)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Projects</h2>
+                <!-- <hr class="star-primary"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/persephone.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/agoyo.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/sage.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/hunter.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/inaride.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag "portfolio/defined.jpg", class: "img-responsive" %>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>About Fluxus</h2>
+                <!-- <hr class="star-light"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-4">
+                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Contact</h2>
+                <!-- <hr class="star-primary"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+            <%= render 'shared/contact_form' %>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+<!--     <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About Freelancer</h3>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Fluxus 2015
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Persephone Clothing</h2>
+                        <%= image_tag "portfolio/persephone.jpg", class: "img-responsive img-centered" %>
+                        <p>Persephone Clothing is an online boutique offering eclectic womenswear. This is an ecomerce project powered by wordpress featuring a custom theme.</p>
+                        <ul class="list-inline item-details">
+                            <li>Link:
+                                <strong><a href="http://persephoneclothing.com/">Persephoneclothing.com</a>
+                                </strong>
+                            </li>
+                            <li>Technology:
+                                <strong>Wordpress
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Agoyo Lounge</h2>
+                        <%= image_tag "portfolio/agoyo.jpg", class: "img-responsive img-centered" %>
+                        <p>Agoyo Lounge, a restaurant located in Santa Fe. The project takes full advantage of a slideshow to tell it's story. The site is powered by Wordpress and features a heavily customised theme.</p>
+                        <ul class="list-inline item-details">
+                            <li>link:
+                                <strong><a href="http://agoyoloungesantafe.com">agoyoloungesantafe.com</a>
+                                </strong>
+                            </li>
+                            <li>Technology:
+                                <strong>Wordpress | jQury
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Sage Bakehouse</h2>
+                        <%= image_tag "portfolio/sage.jpg", class: "img-responsive img-centered" %>
+                        <p>The owners of Sage Bakehouse are very passionate about baked goods. Their creations reach an artistic level that can only be expressd through images. This project is powered by Wordpress with a custom theme.</p>
+                        <ul class="list-inline item-details">
+                            <li>Link:
+                                <strong><a href="http://sagebakehouse.com/">sagebakehouse.com</a>
+                                </strong>
+                            </li>
+                            <li>Technology:
+                                <strong>Wordpress | jQury
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Hunter Kirkland Contemporary</h2>
+                        <%= image_tag "portfolio/hunter.jpg", class: "img-responsive img-centered" %>
+                        <p>An art gellery located in Santa Fe, New Mexico. This art gellery is all about presentation and quality. They needed a web presence that would reflect those values while showcasing some of the art and the artists.</p>
+                        <ul class="list-inline item-details">
+                            <li>Link:
+                                <strong><a href="http://http://www.hunterkirklandcontemporary.com/">Hunter Kirkland</a>
+                                </strong>
+                            </li>
+                            <li>Technology:
+                                <strong>Wordpress | jQury
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Inaride</h2>
+                        <%= image_tag "portfolio/inaride.jpg", class: "img-responsive img-centered" %>
+                        <p>Inaride is a ride-sharing web application built with Ruby on Rails, Tweeter Bootstrap and Google Maps. This was a personal project, a prototype for a service with lots of potential.</p>
+                        <ul class="list-inline item-details">
+                            <li>Link:
+                                <strong><a href="https://innoride-staging.herokuapp.com/">Inaride</a>
+                                </strong>
+                            </li>
+
+                            <li>Technology:
+                                <strong>Ruby On Rails | Bootsrap | jQury
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Defined Fitness</h2>
+                        <%= image_tag "portfolio/defined.jpg", class: "img-responsive img-centered" %>
+                        <p>Defined Fitness is the Premier Workout Facility in New Mexico with Superior Weight Lifting Programs and a variety of Group Fitness Classes.</p>
+                        <ul class="list-inline item-details">
+                            <li>Client:
+                                <strong><a href="http://defined.com">Defined Fitness</a>
+                                </strong>
+                            </li>
+                            <li>Technology:
+                                <strong><a href="https://ellislab.com/expressionengine">Expression Engine</a>
+                                </strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

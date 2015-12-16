@@ -1,0 +1,131 @@
+// Use this file to override Twitter Bootstrap mixins or define own mixins.
+.button-variant(@color; @background; @border) {
+	color: @color;
+	background-color: @background;
+	border-color: @border;
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active,
+	.open .dropdown-toggle& {
+		color: @color;
+		background-color: darken(@background, 10%);
+        border-color: darken(@border, 12%);
+	}
+	&:active,
+	&.active,
+	.open .dropdown-toggle& {
+		background-image: none;
+	}
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		&,
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			background-color: @background;
+			border-color: @border;
+		}
+	}
+
+	.badge {
+		color: @background;
+		background-color: @color;
+	}
+}
+
+
+.navbar-brand{
+	padding:15px 10px 15px 10px;
+}
+
+nav{
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+}
+
+header {
+  background: asset-url("header/waterflow2.jpg");
+  background-color: @brand-primary;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+	.intro-text {
+		margin: 0px 0px 100px 0px;
+	}
+	.skills{
+		display:block;
+		width:690px;
+		margin:0 auto;
+		text-align: center;
+	}
+}
+
+
+section#services{
+
+	background:#FFFDE1;
+
+	.service-icon{
+  text-align: center;
+  height:180px;
+  background: @brand-yellow;
+  overflow:hidden;
+  border-radius: 6px 6px 0px 0px;
+	}
+
+.service-icon i{
+  color: white;
+  position:relative;
+  margin:50px;
+	}
+
+.services-item h3{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background: #304561;
+  box-shadow: 0 4px 2px -2px gray;
+  color:white;
+	}
+.services-item p{
+  padding: 20px 40px 20px 40px;
+  background: rgb(247, 245, 224);
+  min-height: 238px;
+  border-left: 1px solid #9DB0CA;
+  border-right: 1px solid #9DB0CA;
+  border-bottom: 1px solid #9DB0CA;
+	}
+
+}
+
+section#contact{
+	background:#2c3e50;
+
+	 h2{
+		color:#fff;
+	}
+}
+
+section#portfolio{
+	background:rgba(239, 229, 93, 0.5);
+}
+
+
+section#portfolio img, .modal-content img {
+		border:13px solid @brand-yellow;
+}
+
+#send{
+	padding:30px;
+	width:100%;
+	font-size: 2em;
+}
+

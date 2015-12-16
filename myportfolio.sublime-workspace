@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"form"
+			],
+			[
+				"conta",
+				"contactForm"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"brand",
+				"brand-yellow"
+			],
+			[
+				"ser",
+				"services"
+			],
+			[
+				"impo",
+				"important	(freelancer.css.scss)"
+			],
+			[
+				"back",
+				"background-position: "
+			],
+			[
+				"subm",
+				"submarine"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"ba",
+				"background: "
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"loc",
+				"localhost"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"get",
+				"getBlocks"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"clas",
+				"class_suffix"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"narv",
+				"navbar-link"
+			],
+			[
+				"else",
+				"else	ERB else"
+			],
+			[
+				"par",
+				"partials"
+			],
+			[
+				"Cat",
+				"category"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"end",
+				"end	ERB end"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"en",
+				"encrypt_password"
+			],
+			[
+				"pas",
+				"password_salt"
+			],
+			[
+				"passwo",
+				"password_salt"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"text",
+				"text_area"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"btn",
+				"btn-xs"
+			],
+			[
+				"submi",
+				"Submit"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"va",
+				"val	Ruby validates"
+			],
+			[
+				"pub",
+				"publishers"
+			],
+			[
+				"pu",
+				"publisher"
+			],
+			[
+				"ca",
+				"category_params"
+			],
+			[
+				"lica",
+				"licai	link_to (controller, action, id)"
+			],
+			[
+				"l",
+				"lia	link_to (action)"
+			],
+			[
+				"au",
+				"authors_path"
+			],
+			[
+				"ri",
+				"redirect_to"
+			],
+			[
+				"la",
+				"last_name"
+			],
+			[
+				"v",
+				"vpif	validates_presence_of if"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"book",
+				"book_params"
+			],
+			[
+				"list-grou",
+				"list-group-item"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"ph",
+				"publisher"
+			],
+			[
+				"boo",
+				"book_params"
+			],
+			[
+				"html",
+				"html_options"
+			],
+			[
+				"se",
+				"Select"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"sel",
+				"select"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"hea",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Packa",
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ge",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"Ruby ",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: link_to (path)"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/narokir/Projects/myportfolio"
+	],
+	"file_history":
+	[
+		"/Users/narokir/Projects/portfolio/app/views/messages/test.rb",
+		"/Users/narokir/Projects/portfolio/app/views/messages/new.html.erb",
+		"/Users/narokir/Projects/portfolio/config/environments/production.rb",
+		"/Users/narokir/Projects/portfolio/Gemfile",
+		"/Users/narokir/Projects/portfolio/app/views/shared/_contact_form.html.erb",
+		"/Users/narokir/Projects/portfolio/config/environments/development.rb",
+		"/Users/narokir/Projects/portfolio/app/controllers/messages_controller.rb",
+		"/Users/narokir/Projects/portfolio/app/views/messages/create.js.erb",
+		"/Users/narokir/Projects/portfolio/app/assets/javascripts/contact_me.js",
+		"/Users/narokir/Projects/portfolio/app/controllers/pages_controller.rb",
+		"/Users/narokir/Projects/portfolio/config/locales/simple_form.en.yml",
+		"/Users/narokir/Projects/portfolio/config/initializers/simple_form.rb",
+		"/Users/narokir/Projects/portfolio/app/views/shared/_notice_banner.html.erb",
+		"/Users/narokir/Projects/portfolio/app/views/messages/create.html.erb",
+		"/Users/narokir/Projects/portfolio/app/models/page.rb",
+		"/Users/narokir/Projects/portfolio/app/models/message.rb",
+		"/Users/narokir/Projects/portfolio/app/views/messages/create.js.rb",
+		"/Users/narokir/Projects/portfolio/app/views/pages/home.html.erb",
+		"/Users/narokir/Projects/portfolio/config/routes.rb",
+		"/Users/narokir/Projects/portfolio/.env",
+		"/Users/narokir/Projects/portfolio/config/application.rb",
+		"/Users/narokir/Projects/portfolio/Procfile",
+		"/Users/narokir/Projects/portfolio/.gitignore",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/custom_bootstrap/variables.less",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/custom_bootstrap/mixins.less",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/freelancer.less",
+		"/Users/narokir/Projects/portfolio/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/portfolio/app/assets/javascripts/scrolltest.js",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/application.css.scss",
+		"/Users/narokir/Projects/portfolio/app/views/shared/_navbar.html.erb",
+		"/Users/narokir/Downloads/startbootstrap-freelancer-1.0.4/less/variables.less",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/custom_bootstrap/custom_bootstrap.less",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/home.scss",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/bootstrap-theme.css",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/freelancer.css.scss",
+		"/Users/narokir/Projects/portfolio/app/assets/javascripts/cbpAnimatedHeader.js",
+		"/Users/narokir/Projects/portfolio/app/assets/images/header/paintsplash.jpg",
+		"/Users/narokir/Projects/portfolio/app/views/partials/_navbar",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/bootstrap.css",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/mixins.css.scss",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/mixins.less.css.scss",
+		"/Users/narokir/Projects/portfolio/app/assets/stylesheets/pages.scss",
+		"/Users/narokir/Projects/portfolio/app/assets/javascripts/application.js",
+		"/Users/narokir/Projects/solidushop/Gemfile",
+		"/Users/narokir/Projects/solidushop/vendor/assets/stylesheets/spree/frontend/all.css.scss",
+		"/Users/narokir/Projects/solidushop/app/views/layouts/solidus.html.erb",
+		"/Users/narokir/Projects/solidushop/app/overrides/update_footer.rb",
+		"/Users/narokir/Projects/solidushop/app/assets/stylesheets/application.sass.css",
+		"/Users/narokir/Projects/solidushop/vendor/assets/stylesheets/spree/frontend/cusomt.css.scss",
+		"/Users/narokir/Projects/solidushop/config/initializers/spree.rb",
+		"/Users/narokir/Projects/solidushop/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/solidushop/config/environments/development.rb",
+		"/Users/narokir/Projects/solidushop/vendor/assets/stylesheets/spree/frontend/cusomt.css",
+		"/Users/narokir/Projects/solidushop/config/initializers/devise.rb",
+		"/Users/narokir/Projects/spreeshop/Gemfile",
+		"/Users/narokir/Projects/spreeshop/config/initializers/assets.rb",
+		"/Users/narokir/Projects/spreeshop/config/database.yml",
+		"/Users/narokir/Downloads/startbootstrap-creative-1.0.2/less/variables.less",
+		"/Users/narokir/Projects/inaridev2/app/controllers/application_controller.rb",
+		"/Users/narokir/Projects/inaridev2/Gemfile",
+		"/Users/narokir/Projects/inaridev2/app/controllers/users/registrations_controller.rb",
+		"/Users/narokir/Projects/inaridev2/app/assets/javascripts/application.js",
+		"/Users/narokir/Projects/inaridev2/config/routes.rb",
+		"/Users/narokir/Projects/inaridev2/config/environments/development.rb",
+		"/Users/narokir/Projects/inaridev2/app/assets/stylesheets/custom.css.scss",
+		"/Users/narokir/Projects/inaridev2/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/inaridev2/app/views/devise/registrations/new.html.erb",
+		"/Users/narokir/Projects/inaridev2/app/assets/stylesheets/application.css.scss",
+		"/Users/narokir/Projects/inaridev2/config/database.yml",
+		"/Users/narokir/Projects/railscms/app/controllers/home_controller.rb",
+		"/Users/narokir/Projects/railscms/Gemfile",
+		"/Users/narokir/Projects/railscms/app/assets/stylesheets/active_admin.scss",
+		"/Users/narokir/Projects/railscms/app/assets/stylesheets/application.css.scss",
+		"/Users/narokir/Projects/railscms/app/admin/page.rb",
+		"/Users/narokir/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/narokir/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/narokir/Projects/railscms/app/assets/javascripts/pages.coffee",
+		"/Users/narokir/Projects/railscms/app/assets/javascripts/active_admin.js.coffee",
+		"/Users/narokir/Projects/railscms/app/assets/javascripts/custom.js",
+		"/Users/narokir/Projects/railscms/app/assets/javascripts/application.js",
+		"/Users/narokir/Projects/railscms/app/admin/block.rb",
+		"/Users/narokir/Projects/railscms/app/views/pages/show.html.erb",
+		"/Users/narokir/Projects/railscms/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/railscms/app/controllers/application_controller.rb",
+		"/Users/narokir/Projects/railscms/app/views/blocks/_block.html.erb",
+		"/Users/narokir/Projects/railscms/app/views/blocks/_jombotron.html.erb",
+		"/Users/narokir/Projects/railscms/app/views/home/show.html.erb",
+		"/Users/narokir/Projects/railscms/app/controllers/pages_controller.rb",
+		"/Users/narokir/Projects/railscms/app/admin/dashboard.rb",
+		"/Users/narokir/Projects/rblog/app/views/layouts/admin/login.html.erb",
+		"/Users/narokir/Projects/rblog/app/controllers/admin/users_controller.rb",
+		"/Users/narokir/Projects/rblog/app/views/admin/sessions/new.html.erb",
+		"/Users/narokir/Projects/rblog/app/controllers/admin/application_controller.rb",
+		"/Users/narokir/Projects/rblog/app/controllers/admin/categories_controller.rb",
+		"/Users/narokir/Projects/rblog/app/controllers/admin/posts_controller.rb",
+		"/Users/narokir/Projects/rblog/app/controllers/admin/sessions_controller.rb",
+		"/Users/narokir/Projects/rblog/app/models/user.rb",
+		"/Users/narokir/Projects/rblog/app/views/admin/posts/index.html.erb",
+		"/Users/narokir/Projects/rblog/app/views/layouts/admin/application.html.erb",
+		"/Users/narokir/Projects/rblog/config/routes.rb",
+		"/Users/narokir/Projects/rblog/app/views/partials/_search.html.erb",
+		"/Users/narokir/Projects/rblog/config/initializers/assets.rb",
+		"/Users/narokir/Projects/rblog/app/assets/stylesheets/admin/application.css.scss",
+		"/Users/narokir/Projects/rblog/app/assets/stylesheets/application.css.scss",
+		"/Users/narokir/Projects/rblog/app/assets/stylesheets/admin/login.css.scss",
+		"/Users/narokir/Projects/rblog/app/controllers/comments_controller.rb",
+		"/Users/narokir/Projects/rblog/app/controllers/categories_controller.rb",
+		"/Users/narokir/Projects/rblog/app/views/partials/_sidebar.html.erb",
+		"/Users/narokir/Projects/rblog/app/views/partials/_comments.html.erb",
+		"/Users/narokir/Projects/rblog/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/rblog/app/controllers/posts_controller.rb",
+		"/Users/narokir/Projects/rblog/app/views/posts/show.html.erb",
+		"/Users/narokir/Projects/rblog/app/assets/stylesheets/main.css.scss",
+		"/Users/narokir/Projects/rblog/app/views/categories/show.html.erb",
+		"/Users/narokir/Projects/rblog/app/views/posts/index.html.erb",
+		"/Users/narokir/Projects/rblog/app/models/comment.rb",
+		"/Users/narokir/Projects/rblog/db/migrate/20151119014841_rename_table.rb",
+		"/Users/narokir/Projects/rblog/db/migrate/20151114214137_create_commments.rb",
+		"/Users/narokir/Projects/rblog/db/migrate/20151119010112_add_post_id_to_comments.rb",
+		"/Users/narokir/Projects/rblog/app/assets/javascripts/application.js",
+		"/Users/narokir/Projects/rblog/config/environments/development.rb",
+		"/Users/narokir/Projects/rblog/app/views/admin/posts/new.html.erb",
+		"/Users/narokir/Projects/rblog/app/views/admin/posts/edit.html.erb",
+		"/Users/narokir/Projects/rblog/app/assets/javascripts/admin/application.js",
+		"/Users/narokir/Projects/rblog/app/models/post.rb",
+		"/Users/narokir/Projects/rblog/Gemfile",
+		"/Users/narokir/Projects/rblog/app/views/admin/categories/index.html.erb",
+		"/Users/narokir/Projects/rblog/db/migrate/20151114213344_create_posts.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"about",
+			"contact",
+			".services-item h3",
+			"heard .content",
+			"navbar-brand",
+			"brand",
+			"navbar-brand",
+			"safe.png",
+			"Lato",
+			"page top",
+			"lato",
+			"navbar",
+			"$",
+			"brand",
+			"navbar-brand",
+			"navbar-default",
+			"navbar-brand",
+			"header",
+			"classList",
+			"@",
+			"jumbotron",
+			"div",
+			"> ",
+			"</div>",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"post",
+			"Post",
+			"category",
+			"Category",
+			"category",
+			"650x550",
+			"p",
+			"btn-block",
+			"block",
+			">\n",
+			"block",
+			"primary",
+			"h2",
+			"category",
+			"h1",
+			"category",
+			"h1",
+			"ul",
+			"category_id",
+			"author",
+			"if",
+			"category",
+			"h3",
+			"publisher",
+			"author",
+			"authors_path",
+			"6344"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myportfolio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"page",
+				"~/Projects/portfolio/app/models/page.rb"
+			],
+			[
+				"new.html",
+				"~/Projects/portfolio/app/views/messages/new.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"gemf",
+				"portfolio/Gemfile"
+			],
+			[
+				"va",
+				"startbootstrap-freelancer-1.0.4/less/variables.less"
+			],
+			[
+				"gemfile",
+				"portfolio/Gemfile"
+			],
+			[
+				"rou",
+				"portfolio/config/routes.rb"
+			],
+			[
+				"da",
+				"config/database.yml"
+			],
+			[
+				"_serch",
+				"rblog/app/views/partials/_search.html.erb"
+			],
+			[
+				"_search",
+				"rblog/app/views/partials/_search.html.erb"
+			],
+			[
+				"packages",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/ruby tags"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

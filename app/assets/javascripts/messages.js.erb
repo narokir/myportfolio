@@ -1,0 +1,12 @@
+$(document).ready(function()
+{
+    $('#loading').hide();
+        $(document).ajaxStart(function() {
+            // $('#loading').show();
+            $('#send').attr('value', 'Sending...');
+        });
+        $(document).ajaxStop(function() {
+            // $('#loading').hide();
+            $('#send').attr('value', 'Send');
+        });
+});

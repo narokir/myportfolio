@@ -1,0 +1,24 @@
+<% if flash.now[:notice] %>
+
+	<div class="alert alert-success alert-dismissible fade in" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  <%=flash.now[:notice] %>
+	</div>
+
+<% end %>
+
+
+<% if @message.errors.any? %>
+
+    <div class="alert alert-danger alert-dismissible fade in" role="alert">
+    	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+      <h5><%= pluralize(@message.errors.count, "error") %> prohibited this message from being sent:</h5>
+
+      <ul>
+	      <% @message.errors.full_messages.each do |msg| %>
+	        <li><%= msg %></li>
+	      <% end %>
+      </ul>
+    </div>
+<% end %>

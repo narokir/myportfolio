@@ -668,6 +668,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Projects/fluxus/fluxus.sublime-project"
+			],
+			[
+				"flux",
+				"~/Projects/portfolio/fluxus.sublime-workspace"
+			],
+			[
+				"flu",
+				"~/Projects/portfolio/fluxus.sublime-workspace"
+			]
 		],
 		"width": 380.0
 	},

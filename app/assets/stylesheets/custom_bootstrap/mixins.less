@@ -43,12 +43,12 @@
 }
 
 nav{
-	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	// box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
 }
 
 header {
-  background: asset-url("header/waterflow2.jpg");
-  background-color: @brand-primary;
+  background: asset-url("header/header4-tint.jpg");
+  background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
   color:white;
@@ -115,12 +115,27 @@ section#contact{
 }
 
 section#portfolio{
-	background:rgba(239, 229, 93, 0.5);
+	background: #232323;
+	border-bottom: 1px solid #fff;
+	h2{
+		color:white;
+	}
+
+}
+
+section#about{
+	background: #2B2B2B;
+	border-bottom: 1px solid #fff;
+
+	img{
+		margin-bottom: 50px;
+		border:1px solid #fff;
+	}
 }
 
 
 section#portfolio img, .modal-content img {
-		border:13px solid @brand-yellow;
+		border:1px solid #eee;
 }
 
 #send{

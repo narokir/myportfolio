@@ -8,7 +8,7 @@ class Message < MailForm::Base
   # in ActionMailer accepts.
   def headers
     {
-      :subject => "Fluxus Mail",
+      :subject => "Portfolio Mail",
       :to => "narokir@gmail.com",
       :from => %("#{name}" <#{email}>)
     }

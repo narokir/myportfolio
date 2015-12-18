@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"tran",
+				"transparent	(freelancer.less)"
+			],
+			[
 				"fo",
 				"form"
 			],
@@ -14,10 +30,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"brand",
@@ -126,10 +138,6 @@
 			[
 				"pa",
 				"password"
-			],
-			[
-				"text",
-				"text_area"
 			],
 			[
 				"des",
@@ -248,10 +256,6 @@
 				"font-size"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"hea",
 				"header	Tag"
 			]
@@ -259,6 +263,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/assets/stylesheets/custom_bootstrap/mixins.less",
+			"settings":
+			{
+				"buffer_size": 2143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/custom_bootstrap/variables.less",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/freelancer.less",
+			"settings":
+			{
+				"buffer_size": 9637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 18943,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -325,10 +361,25 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/narokir/Projects/myportfolio"
+		"/Users/narokir/Projects/myportfolio",
+		"/Users/narokir/Projects/myportfolio/app",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap",
+		"/Users/narokir/Projects/myportfolio/app/views",
+		"/Users/narokir/Projects/myportfolio/app/views/layouts"
 	],
 	"file_history":
 	[
+		"/Users/narokir/Projects/myportfolio/app/views/layouts/application.html.erb",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/application.css.scss",
+		"/Users/narokir/Projects/myportfolio/config/environments/production.rb",
+		"/Users/narokir/Projects/myportfolio/app/models/message.rb",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap/variables.less",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/freelancer.less",
+		"/Users/narokir/Projects/myportfolio/app/views/shared/_navbar.html.erb",
+		"/Users/narokir/Projects/myportfolio/app/views/pages/home.html.erb",
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap/mixins.less",
+		"/Users/narokir/Projects/myportfolio/Procfile",
 		"/Users/narokir/Projects/portfolio/app/views/messages/test.rb",
 		"/Users/narokir/Projects/portfolio/app/views/messages/new.html.erb",
 		"/Users/narokir/Projects/portfolio/config/environments/production.rb",
@@ -446,21 +497,11 @@
 		"/Users/narokir/Projects/rblog/app/views/posts/index.html.erb",
 		"/Users/narokir/Projects/rblog/app/models/comment.rb",
 		"/Users/narokir/Projects/rblog/db/migrate/20151119014841_rename_table.rb",
-		"/Users/narokir/Projects/rblog/db/migrate/20151114214137_create_commments.rb",
-		"/Users/narokir/Projects/rblog/db/migrate/20151119010112_add_post_id_to_comments.rb",
-		"/Users/narokir/Projects/rblog/app/assets/javascripts/application.js",
-		"/Users/narokir/Projects/rblog/config/environments/development.rb",
-		"/Users/narokir/Projects/rblog/app/views/admin/posts/new.html.erb",
-		"/Users/narokir/Projects/rblog/app/views/admin/posts/edit.html.erb",
-		"/Users/narokir/Projects/rblog/app/assets/javascripts/admin/application.js",
-		"/Users/narokir/Projects/rblog/app/models/post.rb",
-		"/Users/narokir/Projects/rblog/Gemfile",
-		"/Users/narokir/Projects/rblog/app/views/admin/categories/index.html.erb",
-		"/Users/narokir/Projects/rblog/db/migrate/20151114213344_create_posts.rb"
+		"/Users/narokir/Projects/rblog/db/migrate/20151114214137_create_commments.rb"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -474,6 +515,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"h1",
+			".modal-content",
+			"section#about.success",
 			"about",
 			"contact",
 			".services-item h3",
@@ -554,8 +598,188 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/assets/stylesheets/custom_bootstrap/mixins.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".less",
+								"current_syntax": "LESS/LESS",
+								"enabled": false,
+								"last_updated": 1450376715.57
+							},
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/custom_bootstrap/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".less",
+								"current_syntax": "LESS/LESS",
+								"enabled": false,
+								"last_updated": 1450376715.57
+							},
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/stylesheets/freelancer.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								9637
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".less",
+								"current_syntax": "LESS/LESS",
+								"enabled": false,
+								"last_updated": 1450376715.57
+							},
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7354.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/pages/home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								487
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hex",
+									"hsla",
+									"rgb",
+									"hex_compressed",
+									"webcolors",
+									"rgba"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".erb",
+								"current_syntax": "Rails/HTML (Rails)",
+								"enabled": true,
+								"last_updated": 1450376715.57,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

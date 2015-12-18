@@ -1,54 +1,20 @@
 <!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="name">Narek Kirakossian</span>
-                    <!-- <span class"small">Web Developer | UX Designer </span> -->
-                    <span class="skills">Creating beautiful, engaging user experiences for the web. </span>
-                    <!-- <p>Creating beautiful, engaging websites and user experiences</p> -->
-                </div>
-            </div>
+
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="inner cover">
+      <%= image_tag "face2.png", size: "684", class: "img-responsive" %>
+        <h1 class="cover-heading">Narek Kirakossian</h1>
+        <p class="lead">Creating beautiful, engaging user experiences for the web.</p>
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
         </div>
+      </div>
     </div>
-</header>
-
-<!-- services Section -->
-<!-- <section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Services</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 services-item">
-                <div class="service-icon">
-                    <i class="fa fa-cubes fa-5x"></i>
-                </div>
-                <h3>Web Development</h3>
-                <p class="service-intro">Fluxus believes in controlling the web development process from start to finish. We can deliver anything from single page info-sites to multi-functional web applications.</p>
-            </div>
-
-            <div class="col-sm-4 services-item">
-                <div class="service-icon">
-                    <i class="fa fa-paint-brush fa-5x"></i>
-                </div>
-                <h3>Design</h3>
-                <p class="service-intro">With the help of modern design tools, fluxus creates strong, recognisable brands that tell your story, reflect your values and deliver your message clearly.</p>
-            </div>
-
-            <div class="col-sm-4 services-item">
-                <div class="service-icon">
-                    <i class="fa fa-file-code-o fa-5x"></i>
-                </div>
-                <h3>Maintenance</h3>
-                <p>When it comes to technology, change is inevitable and the proper response is to evolve and adapt. When you need improvements, modifications a redesign or consultation, fluxus will take care of you ;)</p>
-            </div>
-        </div>
-    </div>
-</section> -->
+  </div>
+</div>
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
@@ -126,19 +92,19 @@
 
 <!-- About Section -->
 <section class="success" id="about">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>About me</h2>
+                <!-- <h2>About me</h2> -->
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
+        <div class="row ecol">
+            <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: right;">
                 <%= image_tag "me.jpg", class: "" %>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 text-center col-lg-offset-3">
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+            <h2>About me</h2>
                 <p>I am a curious engineer and explorer. 
                 Ruby On Rails is my current passion, but I never forget 
                 that design is an intricate balance of how things work 
@@ -146,7 +112,10 @@
                 <p>I value simplicity and believe that everything can be simplified
                 to a level of absolute unity of shape and function.</p>
             </div>
+
         </div>
+
+
 </section>
 
 <!-- Contact Section -->

@@ -1,11 +1,141 @@
-// @import "custom_bootstrap/variables.less";
-// @import "custom_bootstrap/mixins.less";
 
+/*
+ * Base structure
+ */
+
+html,
 body {
-  overflow-x: hidden;
+  height: 100%;
+  background-color: #2b2b2b;
+  // overflow-x: hidden;
 }
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+
+
+/*
+ * Cover
+ */
+
+ .cover-container{
+  text-align: center;
+  margin-top: 60px;
+ }
+
+.cover {
+  padding: 0 20px;
+  text-align: center;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+ h1.cover-heading {
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  text-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+  .lead{
+    display: block;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: .85em;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    text-shadow: 0px 0px 7px #222;
+    font-weight: 500;
+  }
+
+@media (min-width: 768px) {
+
+  .lead{
+    display: block;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: .95em;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    text-shadow: 0px 0px 7px #222;
+    font-weight: 500;
+  }
+
+  h1.cover-heading{
+    font-size: 4em;
+    color:white;
+  }
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+// =====================================================================================
+
+
 p {
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 p.small {
   font-size: 16px;
@@ -15,7 +145,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #3cdcf9;
   outline: none;
 }
 h1,
@@ -85,24 +215,34 @@ header .intro-text .name {
   text-align: center;
   text-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);
 }
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-}
+
+
+
+
+
 @media (min-width: 768px) {
   header .container {
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 20px;
     color:white;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 4em;
   }
   header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 0.95em;
+    font-weight: 300;
   }
 }
+
+
+
 @media (min-width: 768px) {
+
+section#about h2{
+  font-size: 4.5em;
+}
+
   .navbar-fixed-top {
     padding: 10px 0;
     -webkit-transition: padding 0.3s;
@@ -117,16 +257,20 @@ header .intro-text .skills {
   }
   .navbar-fixed-top.navbar-shrink {
     padding: 0px 0;
-    background:rgba(3, 3, 3, 0.67);
-    // box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    background:#2b2b2b;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #4a4a4a;
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
-    color:white;
+    color:#ed008c;
   }
 }
+
+
+
+
 .navbar {
-  // font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -151,9 +295,7 @@ section h2 {
   margin: 0px 0px 80px 0px;
   font-size: 3em;
 }
-section.success {
-  color: white;
-}
+
 section.success a,
 section.success a:hover,
 section.success a:focus,
@@ -240,8 +382,8 @@ section.success a.active {
   margin-bottom: 15px;
   padding-bottom: 0.5em;
   // border-bottom: 1px solid #eeeeee;
-  border: 1px solid #04294E;
-  background:#fff;
+  border: 1px solid #BBD4A5;
+  background:#F2FFD7;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -372,7 +514,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #eee;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -383,7 +525,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #eee;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */

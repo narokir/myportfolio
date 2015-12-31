@@ -274,22 +274,6 @@
 				"buffer_size": 1510,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "app/assets/javascripts/messages.js.erb",
-			"settings":
-			{
-				"buffer_size": 979,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".env",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
 		}
 	],
 	"build_system": "",
@@ -357,12 +341,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/narokir/Projects/myportfolio",
 		"/Users/narokir/Projects/myportfolio/app",
 		"/Users/narokir/Projects/myportfolio/app/assets"
 	],
 	"file_history":
 	[
+		"/Users/narokir/Projects/myportfolio/app/assets/javascripts/messages.js.erb",
+		"/Users/narokir/Projects/myportfolio/.env",
 		"/Users/narokir/Projects/myportfolio/app/views/layouts/application.html.erb",
 		"/Users/narokir/Projects/myportfolio/app/views/pages/home.html.erb",
 		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/freelancer.less",
@@ -488,9 +473,7 @@
 		"/Users/narokir/Projects/rblog/app/assets/stylesheets/main.css.scss",
 		"/Users/narokir/Projects/rblog/app/views/categories/show.html.erb",
 		"/Users/narokir/Projects/rblog/app/views/posts/index.html.erb",
-		"/Users/narokir/Projects/rblog/app/models/comment.rb",
-		"/Users/narokir/Projects/rblog/db/migrate/20151119014841_rename_table.rb",
-		"/Users/narokir/Projects/rblog/db/migrate/20151114214137_create_commments.rb"
+		"/Users/narokir/Projects/rblog/app/models/comment.rb"
 	],
 	"find":
 	{
@@ -591,7 +574,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -621,86 +604,10 @@
 								"current_ext": ".less",
 								"current_syntax": "LESS/LESS",
 								"enabled": false,
-								"last_updated": 1450376715.57
+								"last_updated": 1450557421.77
 							},
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/javascripts/messages.js.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								359,
-								359
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".erb",
-								"current_syntax": "Rails/JavaScript (Rails)",
-								"enabled": false,
-								"last_updated": 1450376715.57
-							},
-							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": ".env",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": null,
-								"current_syntax": "Text/Plain text",
-								"enabled": false,
-								"last_updated": 1450376715.57
-							},
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

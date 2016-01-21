@@ -268,10 +268,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/stylesheets/custom_bootstrap/mixins.less",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 1510,
+				"buffer_size": 486,
 				"line_ending": "Unix"
 			}
 		}
@@ -342,21 +342,23 @@
 	"expanded_folders":
 	[
 		"/Users/narokir/Projects/myportfolio/app",
-		"/Users/narokir/Projects/myportfolio/app/assets"
+		"/Users/narokir/Projects/myportfolio/app/assets",
+		"/Users/narokir/Projects/myportfolio/app/views",
+		"/Users/narokir/Projects/myportfolio/app/views/pages"
 	],
 	"file_history":
 	[
+		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap/mixins.less",
+		"/Users/narokir/Projects/myportfolio/app/views/pages/home.html.erb",
 		"/Users/narokir/Projects/myportfolio/app/assets/javascripts/messages.js.erb",
 		"/Users/narokir/Projects/myportfolio/.env",
 		"/Users/narokir/Projects/myportfolio/app/views/layouts/application.html.erb",
-		"/Users/narokir/Projects/myportfolio/app/views/pages/home.html.erb",
 		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/freelancer.less",
 		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/application.css.scss",
 		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap/variables.less",
 		"/Users/narokir/Projects/myportfolio/config/environments/production.rb",
 		"/Users/narokir/Projects/myportfolio/app/models/message.rb",
 		"/Users/narokir/Projects/myportfolio/app/views/shared/_navbar.html.erb",
-		"/Users/narokir/Projects/myportfolio/app/assets/stylesheets/custom_bootstrap/mixins.less",
 		"/Users/narokir/Projects/myportfolio/Procfile",
 		"/Users/narokir/Projects/portfolio/app/views/messages/test.rb",
 		"/Users/narokir/Projects/portfolio/app/views/messages/new.html.erb",
@@ -579,19 +581,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/stylesheets/custom_bootstrap/mixins.less",
-					"semi_transient": false,
+					"file": ".gitignore",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1510,
+						"buffer_size": 486,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1508,
-								1508
+								0,
+								0
 							]
 						],
 						"settings":
@@ -601,13 +603,12 @@
 							],
 							"color_helper.scan":
 							{
-								"current_ext": ".less",
-								"current_syntax": "LESS/LESS",
+								"current_ext": "",
+								"current_syntax": "Text/Plain text",
 								"enabled": false,
-								"last_updated": 1450557421.77
+								"last_updated": 1453157014.53
 							},
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
